@@ -15,9 +15,9 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background: ${props => props.theme.base0};
-    color: ${props => props.theme.text0};
+    color: ${props => props.theme.text2};
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
   }
 `
@@ -42,11 +42,13 @@ const solarized = {
 }
 
 export const Theme = {
-  base0: solarized.base3,
-  base1: solarized.base2,
+  base0: solarized.base03,
+  base1: solarized.base02,
   text0: solarized.base01,
   text1: solarized.base00,
   text2: solarized.base0,
-  text4: solarized.base1,
+  text3: solarized.base1,
   link: solarized.blue,
+  notice: solarized.green,
+  highlight: solarized.yellow,
 }
