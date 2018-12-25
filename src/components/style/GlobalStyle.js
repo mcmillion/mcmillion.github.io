@@ -20,6 +20,37 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 2rem;
     margin: 0;
   }
+
+  h1 {
+    color: ${props => props.theme.notice};
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0 0 2rem 0;
+  }
+
+  h2 {
+    color: ${props => props.theme.highlight};
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 0 2rem 0;
+  }
+
+  strong {
+    color: ${props => props.theme.text3};
+    font-weight: bold;
+  }
+
+  p {
+    line-height: 1.3;
+    margin: 0 0 2rem 0;
+    text-align: justify;
+  }
+
+  a {
+    color: ${props => props.theme.link};
+    font-weight: bold;
+    text-decoration: underline;
+  }
 `
 
 const solarized = {

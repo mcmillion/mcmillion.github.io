@@ -3,12 +3,20 @@ import styled from 'styled-components'
 import IconLink from 'components/IconLink'
 
 const ContactList = styled.ul`
-  margin: 2rem;
+  margin: 2rem 0;
 `
 
 const ContactItem = styled.li`
   display: inline-block;
   margin: 0 2rem;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right 0;
+  }
 `
 
 export default function ContactBlock() {

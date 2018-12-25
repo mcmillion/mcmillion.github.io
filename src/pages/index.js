@@ -4,12 +4,18 @@ import Layout from 'components/layout'
 import SEO from 'components/seo'
 import CenteredPage from 'components/CenteredPage'
 import { FlexBlocks, FlexBlock } from 'components/FlexBlocks'
-import { Header, SubHeader } from 'components/Header'
-import { Bold } from 'components/Callout'
-import { Paragraph } from 'components/Flow'
-import { Link } from 'components/Link'
 import Portrait from 'components/Portrait'
 import ContactBlock from 'components/ContactBlock'
+
+const markdown = `
+# Hi!
+
+My name is **Matthew McMillion**. I'm a software develper from Little Rock, Arkansas.
+
+Currently, I work as **Lead Engineer** for a fantastic team of developers at [Stitch Fix](https://www.stitchfix.com).
+
+I love dogs, Vim, and mechanical keyboards.
+`
 
 export default function IndexPage() {
   return (
@@ -30,13 +36,7 @@ export default function IndexPage() {
             <Portrait />
           </FlexBlock>
           <FlexBlock width="450px">
-            <ReactMarkdown># Hi!</ReactMarkdown>
-            <Header>Hi!</Header>
-            <Paragraph>
-              My name is <Bold>Matthew McMillion</Bold> and I'm a{' '}
-              <Bold>Lead Engineer</Bold> at{' '}
-              <Link href="https://www.stitchfix.com">Stitch Fix</Link>
-            </Paragraph>
+            <ReactMarkdown source={markdown} />
             <ContactBlock />
           </FlexBlock>
         </FlexBlocks>
