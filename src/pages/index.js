@@ -10,7 +10,7 @@ import ContactBlock from 'components/ContactBlock'
 const markdown = `
 # Hi!
 
-My name is **Matthew McMillion**. I'm a software develper from Little Rock, Arkansas.
+My name is **Matthew McMillion**. I'm a software developer from Little Rock, Arkansas.
 
 Currently, I work as **Lead Engineer** for a fantastic team of developers at [Stitch Fix](https://www.stitchfix.com).
 
