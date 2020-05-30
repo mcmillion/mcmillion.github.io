@@ -12,7 +12,7 @@ const markdown = `
 
 My name is **Matthew McMillion**. I'm a software developer from Little Rock, Arkansas.
 
-Currently, I work as **Lead Engineer** for a fantastic team of developers at [Stitch Fix](https://www.stitchfix.com).
+Currently, I work as **Principal Engineer** for a fantastic team of developers at [Stitch Fix](https://www.stitchfix.com).
 
 I love dogs, Vim, and mechanical keyboards.
 `
